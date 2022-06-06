@@ -1,0 +1,68 @@
+.container{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(24, 26, 22)
+}
+.menubar{
+    text-align: right;
+    width:100%;
+    height:auto;
+    background-color:rgb(141, 141, 219);
+}    
+
+.header{
+    background-image: url(../images/kitty.jpg);
+    height: 300px;
+    padding: 0px 0px 0px 0px;
+    -webkit-transition: all 400ms !important; 
+   transition: all 400ms !important;
+   background-attachment: scroll;
+   background-position-x: center;
+   background-position-y: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 20vh;
+    
+}
+.headline{
+    background-color: white;
+    display: block;
+    margin-bottom: 20vh;
+    width: 100%;
+}
+
+.headline h1{
+    text-align: center;
+    text-decoration:underline ;
+    align-content: center;
+    margin-bottom: 10vh;
+   
+}
+
+.headline_images{
+    display: inline-block;
+    align-content: center;
+    margin-left: 10vw;
+}
+
+.headline_images img{
+    height:40vh;
+    width: 20vw;
+    padding-left: 2vw;
+    
+    
+}
+.aboutgames{
+
+    background-color: white;
+    display: block;
+    margin-bottom: 20vh;
+    margin-bottom: 20vh;
+}
+.aboutgames h1{
+    float: left;
+}
+.aboutgamestext{
+    float: right;
+    margin-right: 0px;
+}
