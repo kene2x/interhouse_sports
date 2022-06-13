@@ -1,0 +1,115 @@
+container{
+    height: auto;
+    width: 100%;
+}
+.menubar{
+    font-size: 4vh;
+    text-align: center;
+    width:100%;
+    height:auto;
+    padding-bottom: 3vh;
+    margin-top: 0%;
+    background-color: #ffff;
+    
+    border-bottom: solid grey;
+    border-width:.5vh;
+}
+.menubar a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color:black;
+    padding-right:1.5vw;
+    
+    
+}
+.menubar img{
+    width: 7%;
+    height:7%;
+    border-radius: 50%;
+    object-fit: contain;
+    margin: 0px 33% 0px 0px;
+}
+
+.menubar a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue ;
+    text-decoration-thickness:0.4vh;
+}
+.header{
+    width: 100%;    
+    background-image: url(../images/ljcskyline1.png);
+    height: 400px;
+    padding: 0px 0px 0px 0px;
+    -webkit-transition: all 400ms !important; 
+    transition: all 400ms !important;
+    background-attachment: scroll;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20vh;
+    
+    align-content: center;
+    display: block;
+    
+
+}
+
+
+.futuregamesbox{
+
+    position: absolute;
+    transition:0.4s;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    min-height: auto;
+    display: inlo;
+    
+}
+.futuregamesbox img{
+    
+    margin-left:30vw ;
+    margin-bottom: 2vh;
+    display: inline;
+    height: 30vh;
+    width:30vw;
+    object-fit: contain;
+    font-family:fantasy;
+
+    
+}
+#explore{
+    
+    color:black;
+    margin: 10%;
+    transition: 0.4s;
+    
+
+}
+
+#explore img{
+    width:30vh;
+    height:30vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;
+    
+}
+.Logo:hover{
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:50vh ;
+    height:50vh;
+    
+}
+.header h1{
+    padding: 100px 100px 0px ;
+    font-family: myFirstFont;
+    color: white;
+    display: inline-block; 
+}
+.headline h1:hover{
+    text-decoration: underline;
+    text-decoration-color: blue ;
+    text-decoration-thickness:0.4vh;
+}

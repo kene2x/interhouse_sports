@@ -1,39 +1,149 @@
+body{
+    margin-left: 0px;
+}
 .container{
-    height: 300px;
+    height: auto;
     width: 100%;
-    background-color: rgb(24, 26, 22)
 }
 .menubar{
-    text-align: right;
+    font-size: 4vh;
+    text-align: center;
     width:100%;
     height:auto;
-    background-color:rgb(141, 141, 219);
-}    
+    padding-bottom: 3vh;
+    margin-top: 0%;
+    background-color: #ffff;
+    
+    border-bottom: solid grey;
+    border-width:.9vh;
+    
+    /* float: right;*/
 
-.header{
-    background-image: url(../images/kitty.jpg);
-    height: 300px;
-    padding: 0px 0px 0px 0px;
-    -webkit-transition: all 400ms !important; 
-   transition: all 400ms !important;
-   background-attachment: scroll;
-   background-position-x: center;
-   background-position-y: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   margin-bottom: 20vh;
+}    
+.menubar a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color:black;
+    padding-right:1.5vw;
+    
     
 }
+.menubar img{
+    width: 7%;
+    height:7%;
+    border-radius: 50%;
+    object-fit: contain;
+    margin: 0px 33% 0px 0px;
+}
+
+.menubar a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue ;
+    text-decoration-thickness:0.4vh;
+}
+
+.header{
+    width: 100%;    
+    background-image: url(../images/ljcskyline2.png);
+    height: 500px;
+    padding: 0px 0px 0px 0px;
+    -webkit-transition: all 400ms !important; 
+    transition: all 400ms !important;
+    background-attachment: scroll;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20vh;
+    
+    align-content: center;
+    display: block;
+    
+
+}
+
+
+.futuregamesbox{
+
+    position: absolute;
+    transition:0.4s;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    min-height: auto;
+    display: inlo;
+    
+}
+.futuregamesbox img{
+    
+    margin-left:30vw ;
+    margin-bottom: 2vh;
+    display: inline;
+    height: 30vh;
+    width:30vw;
+    object-fit: contain;
+    font-family:fantasy;
+
+    
+}
+#explore{
+    
+    color:black;
+    margin: 10%;
+    transition: 0.4s;
+    
+
+}
+
+#explore img{
+    width:30vh;
+    height:30vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;
+    
+}
+#explore img:hover{
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:40vh ;
+    height:40vh;
+    
+}
+
+/*@font-face{
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+}*/
+.header h1{
+    padding: 100px 100px 0px ;
+    font-family: myFirstFont;
+    color: white;
+    display: inline-block; 
+}
+
+
+.headline h1:hover{
+    text-decoration: underline;
+    text-decoration-color: blue ;
+    text-decoration-thickness:0.4vh;
+}
+
 .headline{
     background-color: white;
     display: block;
     margin-bottom: 20vh;
     width: 100%;
 }
-
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
 .headline h1{
+
     text-align: center;
-    text-decoration:underline ;
+    font-family: 'Bayon' ,sans-serif;
     align-content: center;
     margin-bottom: 10vh;
    
@@ -46,23 +156,260 @@
 }
 
 .headline_images img{
-    height:40vh;
+    height: 40vh;
     width: 20vw;
-    padding-left: 2vw;
-    
-    
+    padding-left: 2vw;    
 }
 .aboutgames{
-
+    justify-self: center;
+    justify-content: center;
+	align-items: center;
+	min-height: 700px;
+    color: black;
+    padding:1vh 1vh 1vh 1vh;
     background-color: white;
     display: block;
-    margin-bottom: 20vh;
-    margin-bottom: 20vh;
+    width:90%;
+    border: 20px  solid black;
+    margin-left: 4vw;
 }
-.aboutgames h1{
-    float: left;
+.aboutgames_text{
+    margin-top: 30vh;
+    height: 50vh;
+	width:25vw;
+	background-color: white;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    display: inline-block;
+    margin-left: 20vw;
 }
-.aboutgamestext{
+
+.aboutgames_header h1{
+    font-weight: bolder;
+    font-size: 7vh;
+    color: black;
+}
+.aboutgames_header{
+    height: 50vh;
+    margin-top: 0px;
+	width:25vw;
+	background-color: white;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    display: inline-block;
+}
+.aboutgames p{
+    background-color:white;
+    color:black;
     float: right;
-    margin-right: 0px;
+    margin-right: 10px;
+}
+.Interhousesports_games{
+    display:inline-block;
+    padding:5vh 5vh 5vh 5vh  ;
+}
+.Interhousesports_games a button{
+    background-color:darkblue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+    
+}
+
+.Interhousesports_games a button:hover{
+    background-color: black;
+	border: 2px solid blue;
+	cursor: pointer;
+}
+
+.Interhousesports_games header{  
+    padding:5vh 5vh 5vh 5vh ;
+    font-size:4vh;
+    font-family: "Trirong", serif;
+    text-align: left;
+}
+
+
+.interhouse{   
+    padding:10px 10px 10px 10px;
+    margin-bottom: 20vh;
+    margin-left: 20vh;
+} 
+
+
+.interhouse img{
+    height: 20vh;
+    width: 10vw;
+}
+    
+.foot{
+    background-color: #000;
+    width: 100%;
+    height:100vh;
+}
+.footertable { 
+    
+    display:inline-block;
+    text-align:left;
+    color:#ffff ;
+    margin-left:30px;
+    padding: 10px 10px 10px 10px; 
+    width:70vw;       
+    position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.box{
+    display:block;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 50vh;
+	width:25vw;
+	padding: 20px 35px;
+	background: black;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    display: inline-block;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color:blue;
+
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: white;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.basketball{
+    height: 23vh;
+    width: 20vw;
+    border-radius: 2vw;
+    overflow: hidden;
+}
+.card .button{
+	background-color:blue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid blue;
+	cursor: pointer;
+}
+
+.footlogo{
+    background-color: white;
+    overflow: hidden;
+}
+.footertable td{
+ padding-left: 5vw;
+ padding-right: 5vw;
+}
+
+.gamesbox{
+    display:block;
+}
+
+.games_header{
+    display: inline-block;
+    font-size:5vh;
+}
+ 
+.games_button{
+    display:inline-block;
+    margin-left: 55vw;
+}
+
+.logo_container{
+    display:block;
+}
+
+.sports_logo{
+display: inline-block;
+margin-left: 2vw;
+border-bottom:solid grey 1px;
+
+}
+
+.sports_logo h5{
+    color:black;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 80px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 20px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 20px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
 }
